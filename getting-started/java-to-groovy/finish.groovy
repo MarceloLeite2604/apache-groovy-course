@@ -10,8 +10,7 @@ class User {
     void printFullName(){
         println "FullName: $firstName $lastName"
     }
-
 }
 
-User user = new User(firstName:"Dan",lastName:"Vega")
+User user = new User(firstName:"Dan", lastName:"Vega")
 println user
